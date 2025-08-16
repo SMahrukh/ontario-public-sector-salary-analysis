@@ -7,6 +7,13 @@ The goal of this project is to explore salary distribution, sector-level pattern
 
 **Data source:** [Ontario Public Sector Salary Disclosure, 2024](https://www.ontario.ca/public-sector-salary-disclosure/2024/all-sectors-and-seconded-employees/)  
 
+### Note on Data and Columns
+This repository does not include the full Ontario dataset because of GitHub size limits.  
+Only a reduced version (with key fields such as employer, job title, sector, salary, and benefits) is included.  
+
+⚠️ Some formulas or code cells in the notebook reference columns like `full_name`.  
+Since the reduced dataset does not include employee names, those specific cells will not run unless you load the full dataset from the [Ontario Government site](https://www.ontario.ca/public-sector-salary-disclosure/2024/all-sectors-and-seconded-employees/).  
+
 ## Tools & Libraries  
 - Python: pandas, numpy, matplotlib, seaborn  
 - Data Cleaning: handled currency formatting, spacing issues, and missing values  
