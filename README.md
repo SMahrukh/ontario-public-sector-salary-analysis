@@ -18,7 +18,7 @@ The goal of this project is to explore salary distribution, sector-level pattern
    - Converted salary text to numeric  
    - Created total compensation field (`salary + benefits`)  
    - Built salary buckets and calculated benefit share  
-   - Checked outliers using z-scores  
+   - Checked outliers
 
 2. **Exploratory Analysis**  
    - Salary and benefits distributions  
